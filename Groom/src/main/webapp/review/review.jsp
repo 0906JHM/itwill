@@ -8,7 +8,7 @@
 	</head>
 	
 <!-- 	리뷰 css 추가 -->
-	<link rel="stylesheet" href="./css/review_gr.css">
+	<link rel="stylesheet" href="../css/review_gr.css">
 	
 	<body>
 	
