@@ -20,8 +20,40 @@ public class MainController extends HttpServlet {
 		 //메인화면페이지
 		 if (sPath.equals("/main.gr")) {
 	            webForward(request, response, "main", "main");
+	            
+	            System.out.println("메인페이지 이동");
 
 	     }
+		 
+		 if(sPath.equals("/blog.gr")) { 
+			 webForward(request, response , "main" , "blog");
+			 System.out.println("블로그 about 페이지 이동 ");
+		 }
+		 
+		 if(sPath.equals("/portfolio.gr")) { 
+			 webForward(request, response , "main" , "portfolio");
+			 System.out.println("portfolio  페이지 이동 ");
+		 }
+		 
+		 if(sPath.equals("/about.gr")) { 
+			 webForward(request, response , "main" , "about");
+			 System.out.println("about  페이지 이동 ");
+		 }
+		 
+	
+		 if(sPath.equals("/contact.gr")) { 
+			 webForward(request, response , "main" , "contact");
+			 System.out.println("contact  페이지 이동 ");
+		 }
+		 
+		 if(sPath.equals("/testabout.gr")) { 
+			 webForward(request, response , "main" , "testabout");
+			 System.out.println("testabout  페이지 이동 ");
+		 }
+		 
+		 
+		 
+		 
 	}
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

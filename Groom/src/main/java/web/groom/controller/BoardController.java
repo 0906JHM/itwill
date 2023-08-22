@@ -16,9 +16,16 @@ public class BoardController extends HttpServlet {
 		String sPath = request.getServletPath();
 		
 		 //페이지이동
-		 if (sPath.equals("/something.bo")) {
-	            
-	     }
+
+		 if(sPath.equals("/qna.bo")) { 
+			 webForward(request, response , "board" , "qna");
+			 System.out.println("qna  페이지 이동 ");
+		 }
+		 
+		 if(sPath.equals("/notice.bo")) { 
+			 webForward(request, response , "board" , "notice");
+			 System.out.println("notice  페이지 이동 ");
+		 }
 		 
 		 
 	}

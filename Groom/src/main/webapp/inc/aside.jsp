@@ -10,20 +10,17 @@
 	<p id="fh5co-main-login_signup" role="navigation"><a href="login.me">로그인</a>  |  <a href="singup.me">회원가입</a></p>
 	<nav id="fh5co-main-menu" role="navigation">
 		<ul>
-			<li><a href="blog.html">ABOUT</a></li>
-			<li><a href="portfolio.html">이용안내</a></li>
-			<li><a href="about.html">예약하기</a></li>
+			<li><a href="blog.gr"> Blog</a></li>  <!--    -->
+			<li><a href="portfolio.gr">이용안내</a></li>
+			<li><a href="about.gr"> 회사 소개 </a></li> <!--  회사 소개 -->
 			<li class="dropdown"><a class="dropdown-toggle"
 				data-toggle="dropdown" href="#">카테고리 <span class="caret"></span></a>
 				<ul class="dropdown-menu">
-					<li><a href="notice.gr">notice</a></li>
-					<li><a href="qna.gr">qna</a></li>
-					<li><a href="about.gr">about</a></li>
-					<li><a href="blog.gr">blog</a></li>
+					<li><a href="notice.bo">notice</a></li>
+					<li><a href="qna.bo">qna</a></li>
 					<li><a href="contact.gr">contact</a></li>
-					<li><a href="portfolio.gr">portfolio</a></li>
-					<li><a href="review.gr">review</a></li>
-					<li><a href="testabout.gr">testabout</a></li>
+					<li><a href="review.re">review</a></li>
+					<li><a href="testabout.gr">testabout</a></li> <!--  blog , portfolio , about은 있으니 굳이 드롭다운에 있을 필요가 없음  -->
 				</ul></li>
 		</ul>
 	</nav>

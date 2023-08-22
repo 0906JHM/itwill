@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="./css/login_gr.css">
 	
 	<body>
-	  <form>
+	  <form action= "loginPro.me" method="post" >
 	  
 <!-- 로고 자리 -->		
 		<h1 style="margin-top: -55px; margin-bottom: 55px;"> Groom(로고) </h1>
@@ -58,9 +58,9 @@
 <!-- 회원가입 | 아이디비밀번호 찾기 -->       
 	 <div class="centered-text">
          <p>
-            <b class="custom-text">회원가입</b>
+            <a href="../member/signup.jsp"  class="custom-text">회원가입</a>
             <span class="vertical-line"></span>
-            <b class="custom-text">아이디/비밀번호 찾기</b>
+            <a href="../member/findid.jsp" class="custom-text">아이디/비밀번호 찾기</a>
         </p>
       </div>
       
