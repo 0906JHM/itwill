@@ -27,10 +27,7 @@ public class BoardController extends HttpServlet {
 			 System.out.println("notice  페이지 이동 ");
 		 }
 		 
-		 if(sPath.equals("/notice.bo")) { 
-			 webForward(request, response , "board" , "notice");
-			 System.out.println("아무거나  ");
-		 }
+	
 		 
 		 
 	}
